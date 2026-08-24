@@ -1,6 +1,3 @@
-# A2Tool v4.0 - Module Package
-# Author: Ayush Rajdev & Anzar Iqbal
-
 from modules import (
     wifi_tool,
     phishing,
