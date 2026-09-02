@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-A2Tool v4.0 - Cryptography & Encryption Tools Module (12 Tools)
-Author: Ayush Rajdev & Anzar Iqbal
-"""
+
 
 import os, sys, subprocess, re, json, time, base64, hashlib, binascii
 from datetime import datetime
