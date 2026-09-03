@@ -36,7 +36,7 @@ def menu():
         print(f"{Y}║{W} [12]{R}  SSL Certificate Generator                        {Y}║{RS}")
         print(f"{Y}║{W} [0]{R}   Back to Main Menu                                  {Y}║{RS}")
         print(f"{Y}╚══════════════════════════════════════════════════════════════╝{RS}")
-        ch = input(f"\n{Y}  A2Tool[Crypto] » {RS}").strip()
+        ch = input(f"\n{Y}  DeadRoot[Crypto] » {RS}").strip()
         if ch == '0': break
         elif ch == '1': aes_crypt()
         elif ch == '2': rsa_gen()
