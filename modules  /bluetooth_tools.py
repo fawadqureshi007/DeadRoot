@@ -31,7 +31,7 @@ def menu():
         print(f"{C}║{W} [10]{R}  Bluetooth Vulnerability Scanner                   {C}║{RS}")
         print(f"{C}║{W} [0]{R}   Back to Main Menu                                  {C}║{RS}")
         print(f"{C}╚══════════════════════════════════════════════════════════════╝{RS}")
-        ch = input(f"\n{Y}  A2Tool[BT] » {RS}").strip()
+        ch = input(f"\n{Y}  DeadRoot[BT] » {RS}").strip()
         if ch == '0': break
         elif ch == '1': bt_scan()
         elif ch == '2': bt_service_discover()
