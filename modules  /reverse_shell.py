@@ -39,7 +39,7 @@ def menu():
         print(f"{R}║{W} [12]{R}  Persistent Backdoor Installer                     {R}║{RS}")
         print(f"{R}║{W} [0]{R}   Back to Main Menu                                  {R}║{RS}")
         print(f"{R}╚══════════════════════════════════════════════════════════════╝{RS}")
-        ch = input(f"\n{Y}  A2Tool[Shell] » {RS}").strip()
+        ch = input(f"\n{Y}  DeadRoot[Shell] » {RS}").strip()
         if ch == '0': break
         elif ch == '1': nc_listener()
         elif ch == '2': multi_handler()
