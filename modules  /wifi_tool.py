@@ -48,7 +48,7 @@ def menu():
         print(f"{C}║{W} [18]{R}  AI-Powered WiFi Analysis                         {C}║{RS}")
         print(f"{C}║{W} [0]{R}   Back to Main Menu                                 {C}║{RS}")
         print(f"{C}╚══════════════════════════════════════════════════════════════╝{RS}")
-        ch = input(f"\n{Y}  A2Tool[WiFi] » {RS}").strip()
+        ch = input(f"\n{Y}  DeadRoot[WiFi] » {RS}").strip()
         if ch == '0': break
         elif ch == '1': recover_wifi_passwords()
         elif ch == '2': scan_networks()
