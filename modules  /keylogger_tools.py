@@ -32,7 +32,7 @@ def menu():
         print(f"{R}║{W} [10]{R}  Keylogger Detection & Removal                     {R}║{RS}")
         print(f"{R}║{W} [0]{R}   Back to Main Menu                                  {R}║{RS}")
         print(f"{R}╚══════════════════════════════════════════════════════════════╝{RS}")
-        ch = input(f"\n{Y}  A2Tool[Key] » {RS}").strip()
+        ch = input(f"\n{Y}  DeadRoot[Key] » {RS}").strip()
         if ch == '0': break
         elif ch == '1': python_keylogger()
         elif ch == '2': email_keylogger()
