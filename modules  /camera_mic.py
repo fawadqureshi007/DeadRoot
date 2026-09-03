@@ -33,7 +33,7 @@ def menu():
         print(f"{M}║{W} [10]{R}  Motion Detection Setup                            {M}║{RS}")
         print(f"{M}║{W} [0]{R}   Back to Main Menu                                  {M}║{RS}")
         print(f"{M}╚══════════════════════════════════════════════════════════════╝{RS}")
-        ch = input(f"\n{Y}  A2Tool[CamMic] » {RS}").strip()
+        ch = input(f"\n{Y}  DeadRoot[CamMic] » {RS}").strip()
         if ch == '0': break
         elif ch == '1': cam_snapshot()
         elif ch == '2': cam_stream()
